@@ -10,6 +10,9 @@
     "test:e2e": "vue-cli-service test:e2e",
     "format": "prettier --config .prettierrc --write {src,tests}/**/*.{vue,js,ts,json}"
   },
+  "engines" : {
+    "node": "v14.21.2"
+  },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",

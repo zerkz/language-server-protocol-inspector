@@ -70,7 +70,13 @@ Here is a sample:
 ```
 
 ## Running & Developing
+Requires node v14.21.2 (the next LTS does not build dependencies correctly)
+
+Use [nvm](https://github.com/nvm-sh/nvm) to make your node version management easy
+
 Navigate to the sub-folder `lsp-inspector`, and:
+
+- _If using nvm_`nvm use`
 - `yarn`
 - `yarn serve`
 
